@@ -194,7 +194,7 @@ digitalWrite(GreenLed,LOW);
 digitalWrite(RedLed,LOW);
 card_ID="";
 
-//if you want to close the Excel when all card had detected and save Excel file in Names Folder. in my case i have just 2 card (optional)
+//if you want to close the Excel when all card had detected and save Excel file in Names Folder. (optional)
 if(n==4){
     ExcelName +=L;
     L++;
