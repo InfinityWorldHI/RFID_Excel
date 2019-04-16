@@ -195,6 +195,7 @@ digitalWrite(RedLed,LOW);
 card_ID="";
 
 //if you want to close the Excel when all card had detected and save Excel file in Names Folder. (optional)
+/*
 if(n==4){
     ExcelName +=L;
     L++;
@@ -206,6 +207,6 @@ if(n==4){
     n=0;
     ID=1;
     ExcelName="Logs";
-    }
+    }*/
 }
     
